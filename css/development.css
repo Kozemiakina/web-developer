@@ -1,0 +1,59 @@
+/**
+Menu
+ */
+.menu{
+    background: #ececec;
+    font-family: OpenSansLight;
+}
+.menu ul{
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    float: inherit;
+    width: 145px;
+    margin: 0 25px;
+    padding: 20px 0;
+    font-size: 11px;
+}
+.menu li:hover{
+    background: #464646;
+}
+.menu a{
+    text-transform: none;
+    color: #000;
+    display: block;
+}
+image {
+    width: 40px;
+    height: 30px;
+}
+.icon{
+    font-size: 20px;
+    color: aqua;
+    vertical-align: -4px;
+}
+/**
+Development
+ */
+.development{
+    padding-top: 380px;
+    padding-bottom: 410px;
+    position: relative;
+}
+.development span{
+    display: block;
+    width: 995px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+}
+.development span:first-child{
+    font-size: 36px;
+    margin-bottom: 55px;
+}
+.development img{
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
