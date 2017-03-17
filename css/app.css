@@ -30,6 +30,10 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+.text-center {
+    text-align: center;
+}
 /*header*/
 header {
     background-color: #e4e3e3;
@@ -246,3 +250,74 @@ footer .footer-copyright {
     text-align: right;
 }
 /*end footer*/
+/*main-content*/
+.main-content {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.title {
+    font-family: "OpenSansLight";
+    font-size: 45px;
+    color: #000000;
+    display: block;
+    padding: 0 0 34px 0;
+}
+
+.subtitle {
+    font-family: "OpenSansLight";
+    font-size: 30px;
+    color: #010101;
+    display: block;
+}
+
+.text-content {
+    font-family: "OpenSansLight";
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    line-height: 48px;
+}
+    /*main-blocks*/
+.main-blocks {
+    overflow: hidden;
+    margin: 127px 0 133px 0;
+}
+
+.main-blocks .block-link:first-child {
+    width: 55.987796%;
+    height: 478px;
+    box-sizing: border-box;
+    margin: 0 13px 0 0;
+    background-color: #383838;
+    background-size: cover;
+}
+
+.main-blocks .block-link:first-child .text {
+    width: 36.10354223%;
+    margin: 141px 52px 145px 0;
+}
+
+.main-blocks .block-link:first-child .text span, .main-blocks .block-link .text a {
+    color: #ffffff;
+    font-family: "OpenSansLight";
+    font-size: 16px;
+    display: block;
+    line-height: 26px;
+}
+
+.main-blocks .block-link:first-child .text span:first-child {
+    font-size: 30px;
+    margin: 0 0 33px 0;
+}
+
+.main-blocks .block-link .text a {
+    margin: 36px 0 0 0;
+    display: inline-block;
+}
+
+.main-blocks .block-link .text a:hover {
+    text-decoration: underline;
+}
+    /*end main-blocks*/
+/*end main-content*/
