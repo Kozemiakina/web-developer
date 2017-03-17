@@ -1,0 +1,174 @@
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 1311px;
+    margin: 0 auto;
+}
+
+.block-left {
+    float: left;
+}
+
+.block-right {
+    float: right;
+}
+
+a {
+    opacity: .8;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+header {
+    background-color: #e4e3e3;
+}
+
+.main-header {
+    height: 48px;
+}
+
+.header-logo {
+    line-height: 48px;
+    width: 16.39705882%;
+}
+
+.header-logo img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.top-menu li a, .contacts a, .contacts span, .sub-menu li a {
+    color: #000000;
+    font-family: "MyriadProRegular";
+    font-size: 16px;
+}
+
+.top-menu {
+    margin: 0 80px 0 118px;
+    line-height: 48px;
+}
+
+.top-menu .main-menu {
+    position: relative;
+    height: 48px;
+}
+
+.top-menu .main-menu li {
+    float: left;
+    display: block;
+    position: relative;
+    margin: 0 47px 0 0;
+}
+
+.top-menu .main-menu li:last-child {
+    margin: 0;
+}
+
+.contacts {
+    line-height: 48px;
+}
+
+.contacts span {
+    text-decoration: underline;
+}
+
+.contacts .email {
+    display: inline-block;
+    margin: 0 25px 0 35px;
+}
+
+.contacts .telephone {
+    color: #e4e9ff;
+    background-color: #577fff;
+    border-radius: 15px;
+    display: inline;
+    padding: 7px 10px;
+    font-size: 14px;
+    margin: 0 11px 0 0;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 206px;
+    background-color: #e4e3e3;
+    line-height: 33px;
+}
+
+.sub-menu li {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 0 0 17px;
+    box-sizing: border-box;
+}
+
+.main-menu li a {
+    height: 100%;
+}
+
+.main-menu li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li:hover {
+    background-color: #d4d1d1;
+}
+/*end header*/
+/*footer menu*/
+.footer-menu {
+    background-color: #292929;
+    color: #ffffff;
+    font-family: "OpenSansLight";
+}
+
+/*end footer menu*/
+/*footer*/
+footer {
+    background-color: #191919;
+    color: #ffffff;
+    font-family: "OpenSansRegular";
+    font-size: 14px;
+    height: 66px;
+}
+
+.footer-logo {
+    width: 16.32352941%;
+    line-height: 66px;
+}
+
+.footer-logo img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+footer .footer-text {
+    display: inline-block;
+    margin: 10px 0 0 95px;
+    width: 24.341%;
+    word-wrap: break-word;
+    line-height: 24px;
+}
+
+footer .footer-copyright {
+    display: inline-block;
+    margin: 10px 0 0 0;
+    width: 19.985%;
+    word-wrap: break-word;
+    line-height: 24px;
+    text-align: right;
+}
+/*end footer*/
