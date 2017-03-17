@@ -254,6 +254,7 @@ footer .footer-copyright {
 .main-content {
     background-color: #ffffff;
     overflow: hidden;
+    width: 100%;
 }
 
 .title {
@@ -298,7 +299,7 @@ footer .footer-copyright {
     margin: 141px 52px 145px 0;
 }
 
-.main-blocks .block-link:first-child .text span, .main-blocks .block-link .text a {
+.main-blocks .block-link:first-child .text span, .main-blocks .block-link:first-child .text a {
     color: #ffffff;
     font-family: "OpenSansLight";
     font-size: 16px;
@@ -306,12 +307,12 @@ footer .footer-copyright {
     line-height: 26px;
 }
 
-.main-blocks .block-link:first-child .text span:first-child {
+.main-blocks .block-link:first-child .text span:first-child, .main-blocks .block-link .text span:first-child {
     font-size: 30px;
     margin: 0 0 33px 0;
 }
 
-.main-blocks .block-link .text a {
+.main-blocks .block-link:first-child .text a {
     margin: 36px 0 0 0;
     display: inline-block;
 }
@@ -319,5 +320,93 @@ footer .footer-copyright {
 .main-blocks .block-link .text a:hover {
     text-decoration: underline;
 }
+
+.main-blocks .block-link {
+    width: 20.97635393%;
+    height: 478px;
+    box-sizing: border-box;
+    background-color: #d1d1d1;
+    background-repeat: no-repeat;
+}
+
+.main-blocks .block-link:last-child {
+    margin-left: 13px;
+}
+
+.main-blocks .block-link .text {
+    width: 81.82%;
+    margin: 204px auto auto auto;
+    font-family: "OpenSansLight";
+    color: #000000;
+    line-height: 26px;
+}
+
+.main-blocks .block-link .text span, .main-blocks .block-link .text a {
+    font-size: 16px;
+    display: block;
+}
+
+.main-blocks .block-link .text a {
+    color: #4453c2;
+    margin: 36px 0 0 0;
+}
     /*end main-blocks*/
+    /*our-advantages*/
+.our-advantages {
+    overflow: hidden;
+    margin: 0 0 96px 0;
+    line-height: 26px;
+}
+
+.our-advantages .subtitle {
+    margin: 0 0 45px 0;
+}
+
+.our-advantages .subtitle:after {
+    content: '';
+    width: 108px;
+    display: block;
+    border-top: 1px solid #000000;
+    margin: 34px auto 0 auto;
+}
+
+.our-advantages-main {
+    overflow: hidden;
+}
+
+.our-advantages-block {
+    width: 25%;
+    margin: 0 0 35px 0;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.our-advantages-block:first-child, .our-advantages-block:nth-child(5n) {
+    padding-left: 26px;
+}
+
+.our-advantages-block:nth-child(4n) {
+    padding-right: 26px;
+}
+
+.our-advantages-block .block-header {
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: middle;
+}
+
+.our-advantages-block .block-header span {
+    padding-left: 12px;
+    font-size: 16px;
+    color: #000000;
+    font-family: "OpenSansRegular";
+}
+
+.our-advantages-block span {
+    display: block;
+    font-size: 14px;
+    color: #060606;
+    font-family: "OpenSansLight";
+}
+    /*end our-advantages*/
 /*end main-content*/
