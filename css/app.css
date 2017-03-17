@@ -18,7 +18,7 @@
 
 a {
     opacity: .8;
-    /*text-decoration: none;*/
+    text-decoration: none;
 }
 
 a:hover {
@@ -133,8 +133,82 @@ header {
     background-color: #292929;
     color: #ffffff;
     font-family: "OpenSansLight";
+    overflow: hidden;
 }
 
+.footer-menu a {
+    color: #ffffff;
+    font-family: "OpenSansLight";
+    font-size: 16px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu__block {
+    text-align: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 38px 0 29px 0;
+}
+
+.footer-menu__block:first-child {
+    padding: 38px 0 29px 23px;
+}
+
+.footer-menu__block:last-child {
+    padding: 38px 26px 29px 0;
+}
+
+.footer-menu__title {
+    font-size: 30px;
+    padding: 0 0 34px 0;
+    display: block;
+}
+
+.footer-menu__address {
+    margin: 0 0 36px 0;
+}
+
+.footer-menu__address span, .footer-menu__telephone span {
+    display: block;
+    padding: 0 0 9px 0;
+}
+
+.footer-menu__address span:last-child {
+    padding: 0;
+}
+
+.footer-menu__telephone span:nth-child(2) {
+    padding: 0 7px 0 0;
+    display: inline-block;
+}
+
+.footer-menu__list {
+    line-height: 24px;
+}
+
+.feedback {
+    font-family: "OpenSansLight";
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.feedback input {
+    background-color: #474747;
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.feedback textarea {
+    background-color: #383838;
+    width: 100%;
+    border: none;
+    padding: 14px 10px 10px 10px;
+    resize: none;
+}
 /*end footer menu*/
 /*footer*/
 footer {

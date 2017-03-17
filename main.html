@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wd</title>
-    <link href="../web-developer/css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="../web-developer/fonts/font.css" rel="stylesheet" type="text/css">
-    <link href="../web-developer/css/app.css" rel="stylesheet" type="text/css">
-    <link href="../web-developer/css/media.css" rel="stylesheet" type="text/css">
+    <link href="./css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="./fonts/font.css" rel="stylesheet" type="text/css">
+    <link href="./css/app.css" rel="stylesheet" type="text/css">
+    <link href="./css/media.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
         <div class="main-header container">
             <div class="header-logo block-left">
-                <a href="/"><img src="../web-developer/image/header-logo.png" alt=""></a>
+                <a href="/"><img src="./image/header-logo.png" alt=""></a>
             </div>
             <nav class="top-menu block-left">
                 <ul class="main-menu">
@@ -45,15 +45,45 @@
 
     <section class="footer-menu">
         <div class="container">
-            <div class="">
-                <div class="">
-                    <span class="">Контакты</span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span><a href="/"></a>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Контакты</span>
+                <div class="footer-menu__address">
+                    <span>Офис</span>
+                    <span>пр-т Речицкий, 131А</span>
+                    <span>г. Гомель, Беларусь</span>
                 </div>
+                <div class="footer-menu__telephone">
+                    <span>Тел: +375 (33) 688 76 36</span>
+                    <span>E-mail: </span><a href="/">info@web-developer.by</a>
+                </div>
+            </div>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Услуги</span>
+                <ul class="footer-menu__list">
+                    <li><a href="/">Разработка сайтов</a></li>
+                    <li><a href="/">Продвижение сайтов</a></li>
+                    <li><a href="/">Обслуживание сайтов</a></li>
+                    <li><a href="/">Комплексные услуги</a></li>
+                    <li><a href="/">Обучение</a></li>
+                    <li><a href="/">Автоматизация бизнеса</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Предложения</span>
+                <ul class="footer-menu__list">
+                    <li><a href="/">Для гос. организаций</a></li>
+                    <li><a href="/">Для ресторанов</a></li>
+                    <li><a href="/">Для гостиниц</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Связь</span>
+                <form class="feedback">
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="E-mail">
+                    <input type="tel" placeholder="Телефон">
+                     <textarea type="text" placeholder="Ваш вопрос" rows="4"></textarea>
+                </form>
             </div>
         </div>
     </section>
@@ -61,7 +91,7 @@
     <footer>
         <div class="content">
             <div class="footer-logo block-left">
-                <img src="../web-developer/image/footer-logo.png">
+                <img src="./image/footer-logo.png">
             </div>
             <span class="footer-text block-left">
                 Разработка сайтов, веб-приложений, автоматизация систем через веб-интерфейс.
