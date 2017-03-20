@@ -1,160 +1,160 @@
 /* font-family: "MyriadProRegular"; */
 @font-face {
     font-family: "MyriadProRegular";
-    src: url("oRegular/MyriadProRegular.eot");
-    src: url("oRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("oRegular/MyriadProRegular.woff") format("woff"),
-    url("oRegular/MyriadProRegular.ttf") format("truetype");
+    src: url("MyriadProRegular/MyriadProRegular.eot");
+    src: url("MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("MyriadProRegular/MyriadProRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProBold"; */
 @font-face {
     font-family: "MyriadProBold";
-    src: url("oBold/MyriadProBold.eot");
-    src: url("oBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
-    url("oBold/MyriadProBold.woff") format("woff"),
-    url("oBold/MyriadProBold.ttf") format("truetype");
+    src: url("MyriadProBold/MyriadProBold.eot");
+    src: url("MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("MyriadProBold/MyriadProBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProItalic"; */
 @font-face {
     font-family: "MyriadProItalic";
-    src: url("oItalic/MyriadProItalic.eot");
-    src: url("oItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
-    url("oItalic/MyriadProItalic.woff") format("woff"),
-    url("oItalic/MyriadProItalic.ttf") format("truetype");
+    src: url("MyriadProItalic/MyriadProItalic.eot");
+    src: url("MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("MyriadProItalic/MyriadProItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProSemiBold"; */
 @font-face {
     font-family: "MyriadProSemiBold";
-    src: url("oSemiBold/MyriadProSemiBold.eot");
-    src: url("oSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
-    url("oSemiBold/MyriadProSemiBold.woff") format("woff"),
-    url("oSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    src: url("MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProBoldItalic"; */
 @font-face {
     font-family: "MyriadProBoldItalic";
-    src: url("oBoldItalic/MyriadProBoldItalic.eot");
-    src: url("oBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("oBoldItalic/MyriadProBoldItalic.woff") format("woff"),
-    url("oBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+    src: url("MyriadProBoldItalic/MyriadProBoldItalic.eot");
+    src: url("MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+    url("MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProSemiBoldItalic"; */
 @font-face {
     font-family: "MyriadProSemiBoldItalic";
-    src: url("oSemiBoldItalic/MyriadProSemiBoldItalic.eot");
-    src: url("oSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("oSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
-    url("oSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+    src: url("MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+    src: url("MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+    url("MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansRegular"; */
 @font-face {
     font-family: "OpenSansRegular";
-    src: url("Regular/OpenSansRegular.eot");
-    src: url("Regular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
-    url("Regular/OpenSansRegular.woff") format("woff"),
-    url("Regular/OpenSansRegular.ttf") format("truetype");
+    src: url("OpenSansRegular/OpenSansRegular.eot");
+    src: url("OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("OpenSansRegular/OpenSansRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansLight"; */
 @font-face {
     font-family: "OpenSansLight";
-    src: url("Light/OpenSansLight.eot");
-    src: url("Light/OpenSansLight.eot?#iefix")format("embedded-opentype"),
-    url("Light/OpenSansLight.woff") format("woff"),
-    url("Light/OpenSansLight.ttf") format("truetype");
+    src: url("OpenSansLight/OpenSansLight.eot");
+    src: url("OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("OpenSansLight/OpenSansLight.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansItalic"; */
 @font-face {
     font-family: "OpenSansItalic";
-    src: url("Italic/OpenSansItalic.eot");
-    src: url("Italic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
-    url("Italic/OpenSansItalic.woff") format("woff"),
-    url("Italic/OpenSansItalic.ttf") format("truetype");
+    src: url("OpenSansItalic/OpenSansItalic.eot");
+    src: url("OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansItalic/OpenSansItalic.woff") format("woff"),
+    url("OpenSansItalic/OpenSansItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansBold"; */
 @font-face {
     font-family: "OpenSansBold";
-    src: url("Bold/OpenSansBold.eot");
-    src: url("Bold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
-    url("Bold/OpenSansBold.woff") format("woff"),
-    url("Bold/OpenSansBold.ttf") format("truetype");
+    src: url("OpenSansBold/OpenSansBold.eot");
+    src: url("OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("OpenSansBold/OpenSansBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansExtraBold"; */
 @font-face {
     font-family: "OpenSansExtraBold";
-    src: url("ExtraBold/OpenSansExtraBold.eot");
-    src: url("ExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
-    url("ExtraBold/OpenSansExtraBold.woff") format("woff"),
-    url("ExtraBold/OpenSansExtraBold.ttf") format("truetype");
+    src: url("OpenSansExtraBold/OpenSansExtraBold.eot");
+    src: url("OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+    url("OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansExtraBoldItalic"; */
 @font-face {
     font-family: "OpenSansExtraBoldItalic";
-    src: url("ExtraBoldItalic/OpenSansExtraBoldItalic.eot");
-    src: url("ExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("ExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
-    url("ExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+    src: url("OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+    src: url("OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+    url("OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansBoldItalic"; */
 @font-face {
     font-family: "OpenSansBoldItalic";
-    src: url("BoldItalic/OpenSansBoldItalic.eot");
-    src: url("BoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("BoldItalic/OpenSansBoldItalic.woff") format("woff"),
-    url("BoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+    src: url("OpenSansBoldItalic/OpenSansBoldItalic.eot");
+    src: url("OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+    url("OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansRegularItalic"; */
 @font-face {
     font-family: "OpenSansRegularItalic";
-    src: url("RegularItalic/OpenSansRegularItalic.eot");
-    src: url("RegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
-    url("RegularItalic/OpenSansRegularItalic.woff") format("woff"),
-    url("RegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+    src: url("OpenSansRegularItalic/OpenSansRegularItalic.eot");
+    src: url("OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+    url("OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansSemiBold"; */
 @font-face {
     font-family: "OpenSansSemiBold";
-    src: url("SemiBold/OpenSansSemiBold.eot");
-    src: url("SemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
-    url("SemiBold/OpenSansSemiBold.woff") format("woff"),
-    url("SemiBold/OpenSansSemiBold.ttf") format("truetype");
+    src: url("OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+    url("OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "OpenSansSemiBoldItalic"; */
 @font-face {
     font-family: "OpenSansSemiBoldItalic";
-    src: url("SemiBoldItalic/OpenSansSemiBoldItalic.eot");
-    src: url("SemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("SemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
-    url("SemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+    src: url("OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+    src: url("OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+    url("OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
