@@ -17,7 +17,7 @@
 }
 
 a {
-    opacity: .8;
+    opacity: .85;
     text-decoration: none;
 }
 
@@ -250,6 +250,31 @@ footer .footer-copyright {
     text-align: right;
 }
 /*end footer*/
+/*under-slider*/
+.under-slider {
+    background-color: #292929;
+    overflow: hidden;
+}
+
+.under-slider .block {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 189px;
+    float: left;
+}
+
+.under-slider .block a {
+    font-family: "OpenSansLight";
+    font-size: 18px;
+    line-height: 26px;
+    color: #d7d7d7;
+    width: 51%;
+    display: block;
+    margin: 71px auto auto 28px;
+    text-align: center;
+}
+/*end under-slider*/
 /*main-content*/
 .main-content {
     background-color: #ffffff;
@@ -279,6 +304,53 @@ footer .footer-copyright {
     display: block;
     line-height: 48px;
 }
+    /*idea*/
+.idea {
+    display: flex;
+}
+
+.idea .block-left, .idea .block-right {
+    width: 50%;
+}
+
+.idea .block-left {
+    background-size: cover;
+    background: url('../image/idea-background.png') no-repeat center;
+}
+
+.idea .block-right {
+    text-align: left;
+    padding: 153px 0 215px 0;
+    overflow: hidden;
+    color: #000000;
+    line-height: 24px;
+    font-family: "OpenSansLight";
+    font-size: 18px;
+}
+
+.idea .idea-title {
+    line-height: 48px;
+    font-family: "OpenSansRegular";
+    font-size: 37px;
+    display: block;
+}
+
+.idea .idea-subtitle {
+    line-height: 48px;
+    font-family: "OpenSansRegular";
+    font-size: 24px;
+    display: block;
+    margin: 0 0 33px 0;
+}
+
+.idea p {
+    margin: 0;
+}
+
+.idea p:last-child {
+    margin: 30px 0 0 0;
+}
+    /*end idea*/
     /*main-blocks*/
 .main-blocks {
     overflow: hidden;
@@ -431,7 +503,22 @@ footer .footer-copyright {
 }
 
 .our-clients .client {
-    width: 14.286%;
+    width: 13.286%;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+}
+
+.our-clients .client a {
+    display: block;
+}
+
+.our-clients .client a img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
     /*end our-clients*/
 /*end main-content*/

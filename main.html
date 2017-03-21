@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wd</title>
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link href="fonts/font.css" rel="stylesheet" type="text/css">
+    <link href="css/main-slider.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
     <link href="css/app.css" rel="stylesheet" type="text/css">
     <link href="css/media.css" rel="stylesheet" type="text/css">
 </head>
@@ -42,9 +45,53 @@
         </div>
     </header>
 
+    <section class="slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('image/slide-1.png')">Slide 1</div>
+                <div class="swiper-slide" style="background-image: url('image/slide-2.png')">Slide 2</div>
+                <div class="swiper-slide" style="background-image: url('image/slide-3.png')">Slide 3</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="under-slider">
+        <div class="container">
+            <div class="block" style="background-image: url('');">
+                <a href="/">Комплексный интернет-маркетинг</a>
+            </div>
+            <div class="block" style="background-image: url('image/services-for-state-organization.png');">
+                <a href="/">Услуги для государственных организаций</a>
+            </div>
+            <div class="block" style="background-image: url('image/individual-site.png');">
+                <a href="/">Разработка индивидуального сайта</a>
+            </div>
+            <div class="block" style="background-image: url('image/elephant.png');">
+                <a href="/">Внедрение корпоративного портала</a>
+            </div>
+        </div>
+    </section>
+
     <section class="main-content">
         <div class="container">
         <div class="content">
+
+            <div class="idea">
+                <div class="block-left"></div>
+                <div class="block-right">
+                    <span class="idea-title">У нас всегда найдется для вас идея!</span>
+                    <span class="idea-subtitle">Мы готовы предложить вам оптимальное решение</span>
+                    <p>
+                        Разработка больших и сложных проектов - наш конек. Мы любим сложности, и сталкиваемся с ними ежедневно. Опишите нам Ваш бизнес и мы придумаем лучший подход, чтобы получить самый лучший результат.
+                    </p>
+                    <p>
+                        Эта заявка Вас ни к чему не обязывает - мы просто дадим свое предложение (ответом на Email) на комплексное продвижение Вашего бизнеса.
+                        Разработка презентации, прототипа, дизайна и любых макетов в "бесплатных рамках" не предусмотрено.
+                    </p>
+                </div>
+            </div>
+
             <span class="title text-center">Наша миссия</span>
             <span class="text-content text-center">Взять на себя все дела вашей организации в сфере интернет-маркетинга, автоматизировать бизнес-процессы и сделать рутинную офисную<br>работу лучше!</span>
             <div class="main-blocks">
@@ -121,7 +168,7 @@
                         </div>
                         <div class="our-advantages-block block-left">
                             <div class="block-header">
-                                <img class="block-left" src="image/information-support.png" alt="">
+                                <img class="block-left" src="image/modern-methods.png" alt="">
                                 <span class="block-right">Современные методы</span>
                             </div>
                             <span>Наши проекты выполнены современными методами, ведь нужно идти в ногу со временем!</span>
@@ -136,31 +183,34 @@
                     </div>
                 </div>
 
-                <span class="subtitle text-center">Наши клиенты</span>
-                <div class="our-clients">
-                    <div class="client">
-                        <a href="/"><img src="image/" alt=""></a>
-                    </div>
-                    <div class="client">
-                        <a href="/"><img src="image/" alt=""></a>
-                    </div>
-                    <div class="client">
-                        <a href="/"><img src="image/" alt=""></a>
-                    </div>
-                    <div class="client">
-                        <a href="/"><img src="image/" alt=""></a>
-                    </div>
-                    <div class="client">
-                        <a href="/"><img src="image/" alt=""></a>
-                    </div>
-                    <div class="client">
-                        <a href="/"><img src="image/" alt=""></a>
-                    </div>
-                    <div class="client">
-                        <a href="/"><img src="image/" alt=""></a>
-                    </div>
+
+            </div>
+
+            <span class="subtitle text-center">Наши клиенты</span>
+            <div class="our-clients">
+                <div class="client">
+                    <a href="/"><img src="image/chiaro-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/grandavto-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/molodostroy-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/alyans-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/avtolux-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/karavaevi-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/acvarium-logo.png" alt=""></a>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -225,5 +275,19 @@
             </span>
         </div>
     </footer>
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 5500,
+            autoplayDisableOnInteraction: false,
+            slidesPerView: 1,
+            loop: true
+        });
+    </script>
 </body>
 </html>

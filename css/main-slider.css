@@ -1,0 +1,12 @@
+.slider {
+
+}
+
+.swiper-container {
+    width: 100%;
+    height: 646px;
+}
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
