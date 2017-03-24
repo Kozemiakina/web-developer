@@ -17,7 +17,7 @@
 }
 
 a {
-    opacity: .8;
+    opacity: .85;
     text-decoration: none;
 }
 
@@ -30,9 +30,17 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+.text-center {
+    text-align: center;
+}
 /*header*/
 header {
     background-color: #e4e3e3;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
 }
 
 .main-header {
@@ -46,7 +54,7 @@ header {
 
 .header-logo img {
     vertical-align: middle;
-    width: 100%;
+    max-height: 48px;
 }
 
 .top-menu li a, .contacts a, .contacts span, .sub-menu li a {
@@ -133,8 +141,82 @@ header {
     background-color: #292929;
     color: #ffffff;
     font-family: "OpenSansLight";
+    overflow: hidden;
 }
 
+.footer-menu a {
+    color: #ffffff;
+    font-family: "OpenSansLight";
+    font-size: 16px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu__block {
+    text-align: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 38px 0 29px 0;
+}
+
+.footer-menu__block:first-child {
+    padding: 38px 0 29px 23px;
+}
+
+.footer-menu__block:last-child {
+    padding: 38px 26px 29px 0;
+}
+
+.footer-menu__title {
+    font-size: 30px;
+    padding: 0 0 34px 0;
+    display: block;
+}
+
+.footer-menu__address {
+    margin: 0 0 36px 0;
+}
+
+.footer-menu__address span, .footer-menu__telephone span {
+    display: block;
+    padding: 0 0 9px 0;
+}
+
+.footer-menu__address span:last-child {
+    padding: 0;
+}
+
+.footer-menu__telephone span:nth-child(2) {
+    padding: 0 7px 0 0;
+    display: inline-block;
+}
+
+.footer-menu__list {
+    line-height: 24px;
+}
+
+.feedback {
+    font-family: "OpenSansLight";
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.feedback input {
+    background-color: #474747;
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.feedback textarea {
+    background-color: #383838;
+    width: 100%;
+    border: none;
+    padding: 14px 10px 10px 10px;
+    resize: none;
+}
 /*end footer menu*/
 /*footer*/
 footer {
@@ -172,3 +254,275 @@ footer .footer-copyright {
     text-align: right;
 }
 /*end footer*/
+/*under-slider*/
+.under-slider {
+    background-color: #292929;
+    overflow: hidden;
+}
+
+.under-slider .block {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 189px;
+    float: left;
+}
+
+.under-slider .block a {
+    font-family: "OpenSansLight";
+    font-size: 18px;
+    line-height: 26px;
+    color: #d7d7d7;
+    width: 51%;
+    display: block;
+    margin: 71px auto auto 28px;
+    text-align: center;
+}
+/*end under-slider*/
+/*main-content*/
+.main-content {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+}
+
+.title {
+    font-family: "OpenSansLight";
+    font-size: 45px;
+    color: #000000;
+    display: block;
+    padding: 0 0 34px 0;
+}
+
+.subtitle {
+    font-family: "OpenSansLight";
+    font-size: 30px;
+    color: #010101;
+    display: block;
+}
+
+.text-content {
+    font-family: "OpenSansLight";
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    line-height: 48px;
+}
+    /*idea*/
+.idea {
+    display: flex;
+}
+
+.idea .block-left, .idea .block-right {
+    width: 50%;
+}
+
+.idea .block-left {
+    background-size: cover;
+    background: url('../image/idea-background.png') no-repeat center;
+}
+
+.idea .block-right {
+    text-align: left;
+    padding: 153px 0 215px 0;
+    overflow: hidden;
+    color: #000000;
+    line-height: 24px;
+    font-family: "OpenSansLight";
+    font-size: 18px;
+}
+
+.idea .idea-title {
+    line-height: 48px;
+    font-family: "OpenSansRegular";
+    font-size: 37px;
+    display: block;
+}
+
+.idea .idea-subtitle {
+    line-height: 48px;
+    font-family: "OpenSansRegular";
+    font-size: 24px;
+    display: block;
+    margin: 0 0 33px 0;
+}
+
+.idea p {
+    margin: 0;
+}
+
+.idea p:last-child {
+    margin: 30px 0 0 0;
+}
+    /*end idea*/
+    /*main-blocks*/
+.main-blocks {
+    overflow: hidden;
+    margin: 127px 0 133px 0;
+}
+
+.main-blocks .block-link:first-child {
+    width: 55.987796%;
+    height: 478px;
+    box-sizing: border-box;
+    margin: 0 13px 0 0;
+    background-color: #383838;
+    background-size: cover;
+}
+
+.main-blocks .block-link:first-child .text {
+    width: 36.10354223%;
+    margin: 141px 52px 145px 0;
+}
+
+.main-blocks .block-link:first-child .text span, .main-blocks .block-link:first-child .text a {
+    color: #ffffff;
+    font-family: "OpenSansLight";
+    font-size: 16px;
+    display: block;
+    line-height: 26px;
+}
+
+.main-blocks .block-link:first-child .text span:first-child, .main-blocks .block-link .text span:first-child {
+    font-size: 30px;
+    margin: 0 0 33px 0;
+}
+
+.main-blocks .block-link:first-child .text a {
+    margin: 36px 0 0 0;
+    display: inline-block;
+}
+
+.main-blocks .block-link .text a:hover {
+    text-decoration: underline;
+}
+
+.main-blocks .block-link {
+    width: 20.97635393%;
+    height: 478px;
+    box-sizing: border-box;
+    background-color: #d1d1d1;
+    background-repeat: no-repeat;
+}
+
+.main-blocks .block-link:last-child {
+    margin-left: 13px;
+}
+
+.main-blocks .block-link .text {
+    width: 81.82%;
+    margin: 204px auto auto auto;
+    font-family: "OpenSansLight";
+    color: #000000;
+    line-height: 26px;
+}
+
+.main-blocks .block-link .text span, .main-blocks .block-link .text a {
+    font-size: 16px;
+    display: block;
+}
+
+.main-blocks .block-link .text a {
+    color: #4453c2;
+    margin: 36px 0 0 0;
+}
+    /*end main-blocks*/
+    /*our-advantages*/
+.our-advantages {
+    overflow: hidden;
+    margin: 0 0 96px 0;
+    line-height: 26px;
+}
+
+.our-advantages .subtitle {
+    margin: 0 0 45px 0;
+}
+
+.our-advantages .subtitle:after {
+    content: '';
+    width: 108px;
+    display: block;
+    border-top: 1px solid #000000;
+    margin: 34px auto 0 auto;
+}
+
+.our-advantages-main {
+    overflow: hidden;
+}
+
+.our-advantages-main .row {
+    margin: 0 0 35px 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.our-advantages-main .row:last-child {
+    margin: 0;
+}
+
+.our-advantages-block {
+    width: 25%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 18px;
+}
+
+.our-advantages-block:first-child {
+    padding-left: 26px;
+    padding-right: 8px;
+}
+
+.our-advantages-block:nth-child(4n) {
+    padding-right: 28px;
+    padding-left: 10px;
+}
+
+.our-advantages-block .block-header {
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: middle;
+}
+
+.our-advantages-block .block-header span {
+    padding-left: 12px;
+    font-size: 16px;
+    color: #000000;
+    font-family: "OpenSansRegular";
+}
+
+.our-advantages-block span {
+    display: block;
+    font-size: 14px;
+    color: #060606;
+    font-family: "OpenSansLight";
+}
+    /*end our-advantages*/
+    /*our-clients*/
+.our-clients {
+    overflow: hidden;
+    margin: 91px 0 60px 0;
+    padding-right: 53px;
+    padding-left: 49px;
+}
+
+.our-clients .client {
+    width: 13.286%;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+}
+
+.our-clients .client a {
+    display: block;
+}
+
+.our-clients .client a img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+    /*end our-clients*/
+/*end main-content*/

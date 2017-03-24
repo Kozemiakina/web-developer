@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wd</title>
-    <link href="./css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="./fonts/font.css" rel="stylesheet" type="text/css">
-    <link href="./css/app.css" rel="stylesheet" type="text/css">
-    <link href="./css/media.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="fonts/font.css" rel="stylesheet" type="text/css">
+    <link href="css/main-slider.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
         <div class="main-header container">
             <div class="header-logo block-left">
-                <a href="/"><img src="../web-developer/image/header-logo.png" alt=""></a>
+                <a href="/"><img src="./image/header-logo.png" alt=""></a>
             </div>
             <nav class="top-menu block-left">
                 <ul class="main-menu">
@@ -42,18 +45,218 @@
         </div>
     </header>
 
+    <section class="slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('image/slide-1.png')">Slide 1</div>
+                <div class="swiper-slide" style="background-image: url('image/slide-2.png')">Slide 2</div>
+                <div class="swiper-slide" style="background-image: url('image/slide-3.png')">Slide 3</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="under-slider">
+        <div class="container">
+            <div class="block" style="background-image: url('');">
+                <a href="/">Комплексный интернет-маркетинг</a>
+            </div>
+            <div class="block" style="background-image: url('image/services-for-state-organization.png');">
+                <a href="/">Услуги для государственных организаций</a>
+            </div>
+            <div class="block" style="background-image: url('image/individual-site.png');">
+                <a href="/">Разработка индивидуального сайта</a>
+            </div>
+            <div class="block" style="background-image: url('image/elephant.png');">
+                <a href="/">Внедрение корпоративного портала</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+        <div class="content">
+
+            <div class="idea">
+                <div class="block-left"></div>
+                <div class="block-right">
+                    <span class="idea-title">У нас всегда найдется для вас идея!</span>
+                    <span class="idea-subtitle">Мы готовы предложить вам оптимальное решение</span>
+                    <p>
+                        Разработка больших и сложных проектов - наш конек. Мы любим сложности, и сталкиваемся с ними ежедневно. Опишите нам Ваш бизнес и мы придумаем лучший подход, чтобы получить самый лучший результат.
+                    </p>
+                    <p>
+                        Эта заявка Вас ни к чему не обязывает - мы просто дадим свое предложение (ответом на Email) на комплексное продвижение Вашего бизнеса.
+                        Разработка презентации, прототипа, дизайна и любых макетов в "бесплатных рамках" не предусмотрено.
+                    </p>
+                </div>
+            </div>
+
+            <span class="title text-center">Наша миссия</span>
+            <span class="text-content text-center">Взять на себя все дела вашей организации в сфере интернет-маркетинга, автоматизировать бизнес-процессы и сделать рутинную офисную<br>работу лучше!</span>
+            <div class="main-blocks">
+                <div class="block-link block-left" style="background-image: url('image/our-works.png');">
+                    <div class="text text-center block-right">
+                        <span>Наши самые яркие работы!</span>
+                        <span>Создание качественных сайтов основное направление компании!</span>
+                        <a href="/">Смотреть все работы ></a>
+                    </div>
+                </div>
+                <div class="block-link block-left" style="background-image: url('image/book.png');">
+                    <div class="text text-center">
+                        <span>Обучение и стажировка</span>
+                        <span>Если вы не имеете достаточного опыта либо знаний, вы можете пройти у нас стажировку.</span>
+                        <a href="/">Оставить заявку ></a>
+                    </div>
+                </div>
+                <div class="block-link block-left" style="background-image: url('image/phone.png');">
+                    <div class="text text-center">
+                        <span>Современная тех. поддержка</span>
+                        <span>Напишите или позвоните нам и мы ответим на все ваши вопросы.</span>
+                        <a href="/">Написать ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="our-advantages">
+                <span class="subtitle text-center">Наши преимущества</span>
+                <div class="our-advantages-main">
+                    <div class="row">
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="image/hige-standarts.png" alt="">
+                                <span class="block-right">Высокие стандарты</span>
+                            </div>
+                            <span>Мы ставим перед собой высокие стандарты, поэтому наши проекты высокого качества.</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="image/way-to-success.png" alt="">
+                                <span class="block-right">Знаем путь к успеху</span>
+                            </div>
+                            <span>Опыт позволяет нам анализировать и видеть лучшие пути к успеху Вашего проекта.</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="image/ideals-and-projects.png" alt="">
+                                <span class="block-right">Уникальные идеи и проекты</span>
+                            </div>
+                            <span>Мы генераторы идей, разрабатывать типичные проекты не в наших интересах!</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="image/personalas.png" alt="">
+                                <span class="block-right">Квалифицированный персонал</span>
+                            </div>
+                            <span>Это позволяет нам делать проекты на высшем уровне, невозможное</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="image/settings.png" alt="">
+                                <span class="block-right">Автоматизация процессов</span>
+                            </div>
+                            <span>Мы стараемся автоматизировать всякий бизнес-процесс.</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="image/information-support.png" alt="">
+                                <span class="block-right">Информационная поддержка</span>
+                            </div>
+                            <span>Всегда рады оказать информационную поддержку по различных способам</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="image/modern-methods.png" alt="">
+                                <span class="block-right">Современные методы</span>
+                            </div>
+                            <span>Наши проекты выполнены современными методами, ведь нужно идти в ногу со временем!</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="image/help-in-start-ups.png" alt="">
+                                <span class="block-right">Помощь в стартапах</span>
+                            </div>
+                            <span>Мы готовы оказывать бесплатную помощь в интернет-стартапах, возможно даже разработать для Вас проект.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <span class="subtitle text-center">Наши клиенты</span>
+            <div class="our-clients">
+                <div class="client">
+                    <a href="/"><img src="image/chiaro-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/grandavto-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/molodostroy-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/alyans-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/avtolux-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/karavaevi-logo.png" alt=""></a>
+                </div>
+                <div class="client">
+                    <a href="/"><img src="image/acvarium-logo.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </section>
 
     <section class="footer-menu">
         <div class="container">
-            <div class="">
-                <div class="">
-                    <span class="">Контакты</span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span><a href="/"></a>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Контакты</span>
+                <div class="footer-menu__address">
+                    <span>Офис</span>
+                    <span>пр-т Речицкий, 131А</span>
+                    <span>г. Гомель, Беларусь</span>
                 </div>
+                <div class="footer-menu__telephone">
+                    <span>Тел: +375 (33) 688 76 36</span>
+                    <span>E-mail: </span><a href="/">info@web-developer.by</a>
+                </div>
+            </div>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Услуги</span>
+                <ul class="footer-menu__list">
+                    <li><a href="/">Разработка сайтов</a></li>
+                    <li><a href="/">Продвижение сайтов</a></li>
+                    <li><a href="/">Обслуживание сайтов</a></li>
+                    <li><a href="/">Комплексные услуги</a></li>
+                    <li><a href="/">Обучение</a></li>
+                    <li><a href="/">Автоматизация бизнеса</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Предложения</span>
+                <ul class="footer-menu__list">
+                    <li><a href="/">Для гос. организаций</a></li>
+                    <li><a href="/">Для ресторанов</a></li>
+                    <li><a href="/">Для гостиниц</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Связь</span>
+                <form class="feedback">
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="E-mail">
+                    <input type="tel" placeholder="Телефон">
+                     <textarea type="text" placeholder="Ваш вопрос" rows="4"></textarea>
+                </form>
             </div>
         </div>
     </section>
@@ -61,7 +264,7 @@
     <footer>
         <div class="content">
             <div class="footer-logo block-left">
-                <img src="../web-developer/image/footer-logo.png">
+                <img src="./image/footer-logo.png">
             </div>
             <span class="footer-text block-left">
                 Разработка сайтов, веб-приложений, автоматизация систем через веб-интерфейс.
@@ -72,5 +275,19 @@
             </span>
         </div>
     </footer>
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 5500,
+            autoplayDisableOnInteraction: false,
+            slidesPerView: 1,
+            loop: true
+        });
+    </script>
 </body>
 </html>

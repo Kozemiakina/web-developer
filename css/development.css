@@ -1,19 +1,34 @@
 body{
     font-family: OpenSansLight;
 }
+.container{
+    position: relative;
+}
 /**
 Menu
  */
 .menu{
     background: #ececec;
+    position: fixed;
+    top: 45px;
+    z-index: 2;
+    width: 100%;
+    height: 95px;
+}
+.menu .container{
+    height: 95px;
 }
 .menu ul{
     text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 .menu li{
     display: inline-block;
     float: inherit;
     width: 145px;
+    height: 100%;
     margin: 0 25px;
     padding: 20px 0;
     font-size: 11px;
@@ -25,22 +40,33 @@ Menu
     .menu li:hover a{
         color: #ffffff;
     }
+    .menu li:hover .icon{
+        fill: #ffffff;
+    }
 .menu a{
     text-transform: none;
     color: #000;
     display: block;
 }
-.menu img{
-    max-height: 35px;
+.menu .icon{
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 35px;
 }
-
+/**
+Scroll-menu
+ */
+.scroll-menu{
+    width: 100%;
+}
 /**
 Development
  */
 .development{
-    padding-top: 380px;
-    padding-bottom: 410px;
-    position: relative;
+    margin-top: 120px;
+    padding-top: 400px;
+    padding-bottom: 405px;
+    background:url("../image/note-book.png") no-repeat right;
 }
 .development__text{
     display: block;
@@ -50,7 +76,6 @@ Development
 .container__title{
     display: block;
     font-size: 36px;
-    line-height: 24px;
     margin-bottom: 55px;
     text-align: center;
     line-height: 36px;
@@ -76,15 +101,24 @@ Development
     font-family: OpenSansLight;
     border-radius: 25px;
     outline: none;
-
+    border: none;
+    opacity: 0.9;
+    cursor: pointer;
 }
+    .container__title__button button:hover{
+        opacity: 1;
+    }
+    .container__title__button button:active{
+        opacity: 0.7;
+    }
 ._little{
     font-size: 18px;
+    line-height: 24px;
 }
 .development img{
     position: absolute;
-    right: 100px;
-    top: 150px;
+    right: -220px;
+    top: -185px;
 }
 /**
 Causes
@@ -101,24 +135,32 @@ Causes
 }
 .causes img{
     display: block;
-    margin: 35px auto 0;
+    margin: 60px auto 30px;
+}
+.our-advantages{
+    padding-top: 45px;
+    margin: 0;
+}
+.our-advantages img{
+    margin: 0;
 }
 /**
 Portfolio
  */
 .portfolio{
-    padding-top: 40px;
-    padding-bottom: 35px;
+    padding-top: 45px;
+    padding-bottom: 40px;
 }
+
 .context{
-    padding-top: 10px;
+    margin-top: -20px;
     height: 575px;
 }
 .portfolio__context{
     display: inline-block;
     float: left;
     width: 50%;
-    margin-top: 45px;
+    margin-bottom: 45px;
     text-align: center;
 }
 .portfolio__context__img,.portfolio__context__text{
@@ -130,10 +172,10 @@ Portfolio
     height: 243px;
     margin-right: 40px;
     margin-left: 35px;
-    background: url(../image/work2.png) 100% center no-repeat;
+    background: url(../image/work-c.png) 100% center no-repeat;
 }
     .portfolio__context__img:hover{
-        background: url(../image/work-c.png) 100% center no-repeat;
+        background: url(../image/work2.png) 100% center no-repeat;
     }
 .portfolio__context__text{
     width: 253px;
@@ -143,7 +185,8 @@ Portfolio
     line-height: 24px;
 }
 .portfolio__text span{
-    padding-top: 60px;
+    padding-top: 30px;
+    margin-bottom: 25px;
 }
 .portfolio__text {
     text-align: center;
@@ -151,7 +194,7 @@ Portfolio
     line-height: 36px;
 }
 .portfolio p{
-    padding-top: 60px;
+    padding-top: 55px;
     text-align: center;
     font-size: 18px;
     margin: 0;
@@ -165,6 +208,17 @@ Process
     background: #efefef;
     text-align: center;
 }
+.process__img{
+    width: 1310px;
+    margin: 0 auto;
+    position: relative;
+}
+.process .container__title{
+    margin-bottom: 45px;
+}
 .process img{
-    max-height: 510px;
+    max-height: 525px;
+    position: absolute;
+    top: 40px;
+    left: 23px;
 }
