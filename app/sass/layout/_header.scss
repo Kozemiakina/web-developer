@@ -1,0 +1,91 @@
+header {
+  background-color: $headerColor;
+}
+
+.main-header {
+  height: $height48;
+  .header-logo {
+    float: left;
+    line-height: $height48;
+    width: (223px / $container *100%);
+    img {
+      vertical-align: middle;
+      width: 100%;
+    }
+  }
+  .top-menu {
+    line-height: $height48;
+    .main-menu {
+      height: $height48;
+      text-align: center;
+      li {
+        display: inline-block;
+        position: relative;
+        margin: 0 (45px / $container * 100%) 0 0;
+        &:last-child {
+          margin: 0;
+        }
+        a {
+          height: 100%;
+          color: $blackColor;
+          font-family: $myriadProRegular;
+          font-size: $size16;
+          @include breakpoint("max-width: 1070px"){
+            font-size: $size14;
+          }
+        }
+        &:hover {
+          .sub-menu {
+            display: block;
+            li:hover {
+              background-color: $subMenuColorHover;
+            }
+          }
+        }
+      }
+    }
+    .sub-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: -34%;
+      width: 206px;
+      background-color: $subMenuColor;
+      line-height: $height33;
+      z-index: 999;
+      text-align: left;
+      li {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 0 0 17px;
+        box-sizing: border-box;
+        a {
+          height: 100%;
+        }
+      }
+    }
+  }
+  .contacts {
+    line-height: $height48;
+    float: right;
+    span {
+      text-decoration: underline;
+    }
+    .email {
+      color: $blackColor;
+      display: inline-block;
+      margin: 0 (25px / $container *100%) 0 (35px / $container *100%);
+      font-family: $myriadProRegular;
+    }
+    .telephone {
+      color: #e4e9ff;
+      background-color: $headerButton;
+      border-radius: 15px;
+      display: inline;
+      padding: 7px 10px;
+      font-size: $size14;
+      margin: 0 11px 0 0;
+      font-family: $myriadProRegular;
+    }
+  }
+}

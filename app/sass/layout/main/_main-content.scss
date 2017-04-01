@@ -1,0 +1,231 @@
+.main-content {
+  background-color: $whiteColor;
+  overflow: hidden;
+  width: 100%;
+  .idea {
+    display: flex;
+    .left {
+      width: 50%;
+      background-image: url("../image/idea-background.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .right {
+      width: 50%;
+      float: right;
+      text-align: left;
+      padding: 153px 0 215px 0;
+      overflow: hidden;
+      color: $blackColor;
+      line-height: $height24;
+      font-family: $openSansLight;
+      font-size: $size18;
+      .idea-title {
+        line-height: $height48;
+        font-family: $openSansRegular;
+        font-size: $size37;
+        display: block;
+        @include breakpoint("max-width: 1366px"){
+          font-size: 34px;
+        }
+        @include breakpoint("max-width: 1325px"){
+          font-size: 32px;
+        }
+        @include breakpoint("max-width: 1250px"){
+          font-size: 30px;
+        }
+        @include breakpoint("max-width: 1172px"){
+          font-size: 28px;
+        }
+        @include breakpoint("max-width: 1095px"){
+          font-size: 26px;
+        }
+      }
+      .idea-subtitle {
+        line-height: $height48;
+        font-family: $openSansRegular;
+        font-size: $size24;
+        display: block;
+        margin: 0 0 33px 0;
+        @include breakpoint("max-width: 1366px"){
+          font-size: 22px;
+        }
+        @include breakpoint("max-width: 1260px"){
+          font-size: 20px;
+          line-height: 40px;
+        }
+        @include breakpoint("max-width: 1145px"){
+          font-size: 18px;
+        }
+        @include breakpoint("max-width: 1095px"){
+          font-size: 16px;
+        }
+      }
+      p {
+        margin: 0;
+        &:last-child {
+          margin: 30px 0 0 0;
+        }
+        @include breakpoint("max-width: 1366px"){
+          font-size: 17px;
+        }
+        @include breakpoint("max-width: 1145px"){
+          font-size: 15px;
+        }
+        @include breakpoint("max-width: 1095px"){
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+.title {
+  font-family: $openSansLight;
+  font-size: $size45;
+  color: $blackColor;
+  display: block;
+  padding: 0 0 34px 0;
+  text-align: center;
+}
+.subtitle {
+  font-family: $openSansLight;
+  font-size: $size30;
+  color: #010101;
+  display: block;
+}
+.text-content {
+  font-family: $openSansLight;
+  font-size: $size18;
+  color: $blackColor;
+  display: block;
+  line-height: $height48;
+  text-align: center;
+  @include breakpoint("max-width: 1345px"){
+    font-size: 16px;
+  }
+  @include breakpoint("max-width: 1200px"){
+    font-size: 14px;
+    line-height: 30px;
+  }
+  @include breakpoint("max-width: 1050px"){
+    font-size: 12px;
+  }
+}
+.main-blocks {
+  overflow: hidden;
+  margin: 127px 0 133px 0;
+  .block-link {
+    float: left;
+    width: 20.97635393%;
+    height: 478px;
+    box-sizing: border-box;
+    background-color: #d1d1d1;
+    &:first-child {
+      width: 55.987796%;
+      height: 478px;
+      box-sizing: border-box;
+      margin: 0 10px 0 0;
+      background-color: #383838;
+      background-size: cover;
+      @include breakpoint("max-width: 1095px"){
+        margin: 0 5px 0 0;
+      }
+      .text {
+        width: 36.10354223%;
+        margin: 141px 52px 145px 0;
+        text-align: center;
+        float: right;
+        span {
+          color: $whiteColor;
+          font-family: $openSansLight;
+          font-size: $size16;
+          display: block;
+          line-height: $height26;
+          @include breakpoint("max-width: 1250px"){
+            font-size: 14px;
+          }
+          @include breakpoint("max-width: 1095px"){
+            font-size: 12px;
+          }
+          &:first-child {
+            font-size: $size30;
+            margin: 0 0 33px 0;
+            @include breakpoint("max-width: 1366px"){
+              font-size: 26px;
+            }
+            @include breakpoint("max-width: 1205px"){
+              font-size: 24px;
+            }
+            @include breakpoint("max-width: 1115px"){
+              font-size: 22px;
+            }
+            @include breakpoint("max-width: 1025px"){
+              font-size: 20px;
+            }
+          }
+        }
+        a {
+          margin: 36px 0 0 0;
+          display: inline-block;
+          color: $whiteColor;
+          font-family: $openSansLight;
+          font-size: $size16;
+          line-height: $height26;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    &:last-child {
+      margin-left: 10px;
+      @include breakpoint("max-width: 1095px"){
+        margin-left: 5px;
+      }
+    }
+    .text {
+      width: 81.82%;
+      margin: 204px auto auto auto;
+      font-family: $openSansLight;
+      color: $blackColor;
+      line-height: $height26;
+      text-align: center;
+      span {
+        font-size: $size16;
+        display: block;
+        @include breakpoint("max-width: 1250px"){
+          font-size: 14px;
+        }
+        @include breakpoint("max-width: 1095px"){
+          font-size: 12px;
+        }
+        &:first-child {
+          font-size: $size30;
+          margin: 0 0 33px 0;
+          @include breakpoint("max-width: 1366px"){
+            font-size: 26px;
+          }
+          @include breakpoint("max-width: 1205px"){
+            font-size: 24px;
+          }
+          @include breakpoint("max-width: 1115px"){
+            font-size: 22px;
+          }
+          @include breakpoint("max-width: 1025px"){
+            font-size: 20px;
+          }
+        }
+      }
+      a {
+        font-size: $size16;
+        display: inline-block;
+        color: #4453c2;
+        margin: 36px 0 0 0;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

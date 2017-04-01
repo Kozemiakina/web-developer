@@ -1,0 +1,23 @@
+{
+  "name": "kate-wd",
+  "description": "Common repository for create site web-developer.by",
+  "main": "gulpfile.js",
+  "authors": [
+    "Kate-Kiryanova <kate.kiryanovaaa@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Kozemiakina/web-developer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app/bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize-css": "normalize.css#^6.0.0",
+    "swiper": "^3.4.2"
+  }
+}

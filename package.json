@@ -1,0 +1,29 @@
+{
+  "name": "kate-wd",
+  "version": "1.0.0",
+  "description": "Common repository for create site web-developer.by",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kozemiakina/web-developer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kozemiakina/web-developer/issues"
+  },
+  "homepage": "https://github.com/Kozemiakina/web-developer#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1",
+    "wiredep": "^4.0.0"
+  }
+}

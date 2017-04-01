@@ -1,0 +1,34 @@
+.under-slider {
+  background-color: $underSliderBackground;
+  overflow: hidden;
+  .block {
+    width: 25%;
+    height: 189px;
+    float: left;
+    a {
+      width: 100%;
+      height: 100%;
+      display: block;
+      overflow: hidden;
+      span {
+        font-family: $openSansLight;
+        font-size: $size18;
+        line-height: $height26;
+        color: #d7d7d7;
+        width: 51%;
+        display: block;
+        margin: 71px auto auto 28px;
+        text-align: center;
+        @include breakpoint("max-width: 1366px"){
+          font-size: $size16;
+        }
+        @include breakpoint("max-width: 1290px"){
+          font-size: $size14;
+        }
+        @include breakpoint("max-width: 1130px"){
+          font-size: $size12;
+        }
+      }
+    }
+  }
+}

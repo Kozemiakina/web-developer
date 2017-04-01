@@ -1,0 +1,20 @@
+.subtitle {
+  text-align: center;
+}
+.our-clients {
+  overflow: hidden;
+  margin: 91px 0 60px 0;
+  .swiper-clients-container {
+    width: 100%;
+    height: 90px;
+    .swiper-slide {
+      width: 14.28571429%;
+      height: 100%;
+      text-align: center;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+

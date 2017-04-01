@@ -1,0 +1,97 @@
+.swiper-main-container {
+  width: 100%;
+  .swiper-slide {
+    text-align: center;
+    margin-bottom: -5px;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .slider-content {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      font-family: $myriadProRegular;
+      color: $blackColor;
+      .slider-title {
+        font-size: $size60;
+        display: block;
+        line-height: $size60;
+        margin: 0 0 45px 0;
+        @include breakpoint("max-width: 1285px"){
+          font-size: 50px;
+          line-height: 50px;
+        }
+      }
+      a {
+        color: #000000;
+        font-family: $myriadProRegular;
+        font-size: $size18;
+        border: 1px solid #000000;
+        padding: 10px 40px;
+        box-sizing: border-box;
+        display: inline-block;
+      }
+      .slider-text {
+        font-size: $size30;
+        line-height: $size30;
+        display: block;
+        float: right;
+        width: 100%;
+        margin: 0 0 27px 0;
+        @include breakpoint("max-width: 1285px"){
+          font-size: 28px;
+          line-height: 28px;
+        }
+      }
+    }
+    .first-slide {
+      position: absolute;
+      top: 50%;
+      margin-top: -96px;
+      right: 0;
+      float: right;
+      text-align: right;
+      .slider-text {
+        margin: 0;
+        &:nth-child(3) {
+          margin: 0 0 27px 0;
+        }
+      }
+    }
+    .second-slide {
+      position: absolute;
+      top: 60%;
+      margin-top: -123px;
+      left: 15.6%;
+      float: left;
+      text-align: left;
+      .slider-title {
+        margin: 0;
+        &:nth-child(2) {
+          margin: 0 0 25px 0 !important;
+        }
+      }
+      a {
+        margin-right: 339px;
+        float: right;
+      }
+    }
+    .third-slide {
+      position: absolute;
+      top: 40%;
+      margin-top: -102px;
+      left: 3.6%;
+      text-align: left;
+      float: left;
+    }
+  }
+  .swiper-pagination-bullet {
+    background: $whiteColor;
+    border: 1px solid $blackColor;
+  }
+  .swiper-pagination-bullet-active {
+    background: $blackColor;
+  }
+}

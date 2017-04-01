@@ -1,0 +1,40 @@
+.footer-menu
+    .container
+        .footer-menu__block
+            span.footer-menu__title Контакты
+            .footer-menu__address
+                span Офис
+                span пр-т Речицкий, 131А
+                span г. Гомель, Беларусь
+            .footer-menu__telephone
+                span Тел: +375 (33) 688 76 36
+                span E-mail:
+                    a(href="/")  info@web-developer.by
+        .footer-menu__block
+            span.footer-menu__title Услуги
+            ul.footer-menu__list
+                -var FooterList = ['Разработка сайтов', 'Продвижение сайтов', 'Обслуживание сайтов', 'Комплексные услуги', 'Обучение', 'Автоматизация бизнеса']
+                    for item in FooterList
+                        li
+                            a(href='/')=item
+        .footer-menu__block
+            span.footer-menu__title Предложения
+            ul.footer-menu__list
+                -var FooterList = ['Для гос. организаций', 'Для ресторанов', 'Для гостиниц']
+                for item in FooterList
+                    li
+                        a(href='/')=item
+        .footer-menu__block
+            span.footer-menu__title Связь
+            form.feedback
+                input(type='text', placeholder="Имя")
+                input(type="email", placeholder="E-mail")
+                input(type="tel", placeholder="Телефон")
+                textarea(type="text", placeholder="Ваш вопрос", rows="4")
+                button(type="submit") Отправить
+footer
+    .section
+        .footer-logo
+            img(src='./image/footer-logo.png')
+        span.footer-text Разработка сайтов, веб-приложений, автоматизация систем через веб-интерфейс.
+        span.footer-copyright &copy; Copyright 2016 by Web-Developer.by. Работает на 1С-Битрикс.

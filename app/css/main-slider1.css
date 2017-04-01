@@ -1,0 +1,86 @@
+.swiper-main-container {
+    width: 100%;
+}
+.swiper-main-container .swiper-slide {
+    text-align: center;
+    margin-bottom: -5px;
+    position: relative;
+}
+
+.swiper-main-container .swiper-slide img {
+    width: 100%;
+}
+
+.swiper-main-container .swiper-slide .slider-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    font-family: "MyriadProRegular";
+    color: #000000;
+}
+
+.first-slide {
+    position: absolute;
+    top: 50%;
+    margin-top: -96px;
+    right: 0;
+}
+
+.second-slide {
+    position: absolute;
+    top: 60%;
+    margin-top: -123px;
+    left: 15.6%;
+}
+
+.second-slide .slider-title {
+    margin: 0 0 25px 0 !important;
+}
+
+.second-slide a {
+    margin-right: 339px;
+}
+
+.third-slide {
+    position: absolute;
+    top: 40%;
+    margin-top: -102px;
+    left: 3.6%;
+}
+
+.swiper-main-container .swiper-slide .slider-content .slider-title {
+    font-size: 60px;
+    display: block;
+    line-height: 60px;
+    margin: 0 0 45px 0;
+}
+
+.swiper-main-container .swiper-slide .slider-content  a {
+    color: #000000;
+    font-family: "MyriadProRegular";
+    font-size: 18px;
+    border: 1px solid #000000;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+
+.swiper-main-container .swiper-slide .slider-content .slider-text {
+    font-size: 30px;
+    line-height: 30px;
+    display: block;
+    float: right;
+    width: 100%;
+    margin: 0 0 27px 0;
+}
+
+.swiper-clients-container {
+    width: 100%;
+    height: 90px;
+}
+
+.swiper-clients-container .swiper-slide {
+    width: 14.28571429%;
+    height: 100%;
+    text-align: center;
+}

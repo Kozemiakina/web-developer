@@ -1,0 +1,100 @@
+.our-advantages {
+  overflow: hidden;
+  margin: 0 0 96px 0;
+  line-height: $height26;
+  .subtitle {
+    margin: 0 0 45px 0;
+    text-align: center;
+    &:after {
+      content: '';
+      width: 108px;
+      display: block;
+      border-top: 1px solid $blackColor;
+      margin: 34px auto 0 auto;
+    }
+  }
+  .our-advantages-main {
+    overflow: hidden;
+    .row {
+      margin: 0 0 35px 0;
+      overflow: hidden;
+      &:last-child {
+        margin: 0;
+      }
+      .our-advantages-block {
+        width: 25%;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 35px;
+        padding-right: 18px;
+        float: left;
+        &:first-child {
+          padding-left: 26px;
+          padding-right: 8px;
+        }
+        &:nth-child(4n) {
+          padding-right: 23px;
+          padding-left: 10px;
+        }
+        .block-header {
+          display: inline-block;
+          line-height: 26px;
+          vertical-align: middle;
+          img {
+            float: left;
+            @include breakpoint("max-width: 1200px"){
+              width: 20px;
+            }
+            @include breakpoint("max-width: 1125px"){
+              width: 15px;
+            }
+          }
+          span {
+            padding-left: 12px;
+            font-size: $size16;
+            color: #000000;
+            font-family: $openSansRegular;
+            float: right;
+            @include breakpoint("max-width: 1366px"){
+              font-size: 14px;
+            }
+            @include breakpoint("max-width: 1320px"){
+              font-size: 12px;
+            }
+            @include breakpoint("max-width: 1192px"){
+              font-size: 11px;
+            }
+            @include breakpoint("max-width: 1125px"){
+              font-size: 10px;
+            }
+            @include breakpoint("max-width: 1065px"){
+              font-size: 8px;
+            }
+          }
+        }
+        span {
+          display: block;
+          font-size: $size14;
+          color: #060606;
+          font-family: $openSansLight;
+          @include breakpoint("max-width: 1366px"){
+            font-size: 12px;
+          }
+          @include breakpoint("max-width: 1320px"){
+            font-size: 11px;
+          }
+          @include breakpoint("max-width: 1192px"){
+            font-size: 10px;
+            line-height: 15px;
+          }
+          @include breakpoint("max-width: 1125px"){
+            font-size: 9px;
+          }
+          @include breakpoint("max-width: 1065px"){
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+}
