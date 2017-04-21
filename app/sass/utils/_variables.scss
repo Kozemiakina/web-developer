@@ -1,0 +1,39 @@
+$myriadPro: "MyriadPro",sans-serif;
+$myriadProRegular: "MyriadProRegular",sans-serif;
+$openSansLight: "OpenSansLight",serif;
+$openSansRegular: "OpenSansRegular",serif;
+
+$container:1360px;
+$section:1311px;
+
+$whiteColor: #ffffff;
+$blackColor: #000000;
+$headerButton: #577fff;
+$headerColor: #e4e3e3;
+$subMenuColor: #e4e3e3;
+$subMenuColorHover: #d4d1d1;
+$underSliderBackground: #292929;
+
+$size12: 12px;
+$size14: 14px;
+$size16: 16px;
+$size18: 18px;
+$size24: 24px;
+$size30: 30px;
+$size37: 37px;
+$size45: 45px;
+$size60: 60px;
+
+$height24: 24px;
+$height26: 26px;
+$height47: 47px;
+$height48: 48px;
+$height33: 33px;
+$height38: 38px;
+
+@mixin breakpoint($breakpoint) {
+  @media screen and ($breakpoint) {
+    @content;
+  }
+}
+

@@ -1,0 +1,52 @@
+@import "utils/_variables";
+@import "layout/_header";
+@import "layout/main/_main";
+@import "layout/service/_service";
+@import "layout/training/_training";
+@import "layout/advance/_advance";
+@import "layout/traffic/_traffic";
+@import "layout/promotion/_promotion";
+@import "layout/seo/_seo-audit";
+@import "layout/development/_development";
+@import "layout/_footer";
+
+.container {
+    width: $container;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.section {
+    width: $section;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+a {
+    opacity: .85;
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover {
+        opacity: 1;
+        transition: 0.3s;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus, *:target {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "MyriadProRegular", sans-serif;
+    @include breakpoint("max-width: 984px") {
+        padding: 155px 0 0 0;
+    }
+}

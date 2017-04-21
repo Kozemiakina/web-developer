@@ -1,0 +1,65 @@
+.seo-audit {
+    overflow: hidden;
+    margin: 0 auto;
+    background: url("../../../image/bg-seo-audit.png") no-repeat center center;
+    .seo-audit_content {
+        padding: 58px 0 303px;
+        overflow: hidden;
+        @include breakpoint("max-width: 780px") {
+            padding-bottom: 151px;
+        }
+        .seo-audit-content_text {
+            margin-bottom: 96px;
+            float: left;
+            width: 80%;
+            @include breakpoint("max-width: 984px") {
+                float: none;
+                width: 100%;
+            }
+            .container__title {
+                font-size: 60px;
+                text-align: left;
+                @include breakpoint("max-width: 984px") {
+                    text-align: center;
+                }
+            }
+            ._little {
+                font-size: 18px;
+                text-align: center;
+                display: block;
+            }
+        }
+        .seo-audit-content_img {
+            width: 100%;
+        }
+    }
+    .seo-audit_shema {
+        margin: 0 auto 134px auto;
+        @include breakpoint("max-width: 780px") {
+            margin-bottom: 64px;
+        }
+        .seo-audit_shema-img {
+            text-align: center;
+        }
+    }
+    .advance-order-form {
+        .order-form {
+            .order-form__form {
+                padding-top: 0;
+                @include breakpoint("max-width: 780px") {
+                    padding-top: 30px;
+                }
+                @include breakpoint("max-width: 450px") {
+                    .container__title {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+
+    }
+    img {
+        width: auto;
+        max-width: 95%;
+    }
+}

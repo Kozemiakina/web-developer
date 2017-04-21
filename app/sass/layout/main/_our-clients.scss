@@ -1,0 +1,25 @@
+.subtitle {
+    text-align: center;
+}
+
+.our-clients {
+    overflow: hidden;
+    margin: 91px 0 60px 0;
+    .swiper-clients-container {
+        width: 100%;
+        height: 90px;
+        .swiper-slide {
+            width: 14.28571429%;
+            height: 100%;
+            line-height: 68px;
+            text-align: center;
+            @include breakpoint("max-width: 500px"){
+                width: 100%;
+            }
+            img {
+                max-width: 100%;
+                vertical-align: middle;
+            }
+        }
+    }
+}

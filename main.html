@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wd</title>
-    <link href="../web-developer/css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="../web-developer/fonts/font.css" rel="stylesheet" type="text/css">
-    <link href="../web-developer/css/app.css" rel="stylesheet" type="text/css">
-    <link href="../web-developer/css/media.css" rel="stylesheet" type="text/css">
+    <link href="app/css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="app/fonts/font.css" rel="stylesheet" type="text/css">
+    <link href="app/css/main-slider1.css" rel="stylesheet" type="text/css">
+    <link href="app/css/swiper.min.css" rel="stylesheet" type="text/css">
+    <link href="app/css/app1.css" rel="stylesheet" type="text/css">
+    <link href="app/css/media1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
         <div class="main-header container">
             <div class="header-logo block-left">
-                <a href="/"><img src="../web-developer/image/header-logo.png" alt=""></a>
+                <a href="/"><img src="app/image/header-logo.png" alt=""></a>
             </div>
             <nav class="top-menu block-left">
                 <ul class="main-menu">
@@ -43,18 +45,248 @@
         </div>
     </header>
 
+    <section class="slider">
+        <div class="swiper-main-container swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="app/image/slide-1.png" alt="">
+                    <div class="slider-content">
+                        <div class="container" style="position: relative; height: 100%">
+                            <div class="block-right first-slide text-right">
+                                <span class="slider-title">Комплексный интернет маркетинг</span>
+                                <span class="slider-text">от создания сайта и бренда до сопровождения,<br>продвижения и развития проекта</span>
+                                <a class="block-right" href="/">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="app/image/slide-2.png" alt="">
+                    <div class="slider-content">
+                        <div class="container" style="position: relative; height: 100%">
+                            <div class="block-left second-slide text-left">
+                                <span class="slider-title">Автоматизация и оптимизация<br>бизнес-процессов компаний</span>
+                                <span class="slider-text">Настройки CRM (Битрикс24), автоматизация бизнес-процесов</span>
+                                <a class="block-right" href="/">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="app/image/slide-3.png" alt="">
+                    <div class="slider-content">
+                        <div class="container"  style="position: relative; height: 100%">
+                            <div class="block-left third-slide text-left">
+                                <span class="slider-title">Есть идеи, но нет уверенности?</span>
+                                <span class="slider-text">Закажи обратный звонок и получи бесплатную консультациюпо всем вопросам!</span>
+                                <a class="block-left" href="/">Заказать звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="under-slider">
+        <div class="container">
+            <div class="block" style="background-image: url('app/image/internet-marketing.png'); background-size: 44%;">
+                <a href="/">
+                    <span>Комплексный интернет-маркетинг</span>
+                </a>
+            </div>
+            <div class="block" style="background-image: url('app/image/services-for-state-organization.png');">
+                <a href="/">
+                    <span>Услуги для государственных организаций</span>
+                </a>
+            </div>
+            <div class="block" style="background-image: url('app/image/individual-site.png'); background-size:44%;">
+                <a href="/">
+                    <span>Разработка индивидуального сайта</span>
+                </a>
+            </div>
+            <div class="block" style="background-image: url('app/image/elephant.png');">
+                <a href="/">
+                    <span>Внедрение корпоративного портала</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+        <div class="content">
+
+            <div class="idea">
+                <div class="block-left"></div>
+                <div class="block-right">
+                    <span class="idea-title">У нас всегда найдется для вас идея!</span>
+                    <span class="idea-subtitle">Мы готовы предложить вам оптимальное решение</span>
+                    <p>
+                        Разработка больших и сложных проектов - наш конек. Мы любим сложности, и сталкиваемся с ними ежедневно. Опишите нам Ваш бизнес и мы придумаем лучший подход, чтобы получить самый лучший результат.
+                    </p>
+                    <p>
+                        Эта заявка Вас ни к чему не обязывает - мы просто дадим свое предложение (ответом на Email) на комплексное продвижение Вашего бизнеса.
+                        Разработка презентации, прототипа, дизайна и любых макетов в "бесплатных рамках" не предусмотрено.
+                    </p>
+                </div>
+            </div>
+
+            <span class="title text-center">Наша миссия</span>
+            <span class="text-content text-center">Взять на себя все дела вашей организации в сфере интернет-маркетинга, автоматизировать бизнес-процессы и сделать рутинную офисную<br>работу лучше!</span>
+            <div class="main-blocks">
+                <div class="block-link block-left" style="background-image: url('app/image/our-works.png');">
+                    <div class="text text-center block-right">
+                        <span>Наши самые яркие работы!</span>
+                        <span>Создание качественных сайтов основное направление компании!</span>
+                        <a href="/">Смотреть все работы ></a>
+                    </div>
+                </div>
+                <div class="block-link block-left" style="background-image: url('app/image/book.png');">
+                    <div class="text text-center">
+                        <span>Обучение и стажировка</span>
+                        <span>Если вы не имеете достаточного опыта либо знаний, вы можете пройти у нас стажировку.</span>
+                        <a href="/">Оставить заявку ></a>
+                    </div>
+                </div>
+                <div class="block-link block-left" style="background-image: url('app/image/phone.png');">
+                    <div class="text text-center">
+                        <span>Современная тех. поддержка</span>
+                        <span>Напишите или позвоните нам и мы ответим на все ваши вопросы.</span>
+                        <a href="/">Написать ></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="our-advantages">
+                <span class="subtitle text-center">Наши преимущества</span>
+                <div class="our-advantages-main">
+                    <div class="row">
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="app/image/hige-standarts.png" alt="">
+                                <span class="block-right">Высокие стандарты</span>
+                            </div>
+                            <span>Мы ставим перед собой высокие стандарты, поэтому наши проекты высокого качества.</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="app/image/way-to-success.png" alt="">
+                                <span class="block-right">Знаем путь к успеху</span>
+                            </div>
+                            <span>Опыт позволяет нам анализировать и видеть лучшие пути к успеху Вашего проекта.</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="app/image/ideals-and-projects.png" alt="">
+                                <span class="block-right">Уникальные идеи и проекты</span>
+                            </div>
+                            <span>Мы генераторы идей, разрабатывать типичные проекты не в наших интересах!</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="app/image/personalas.png" alt="">
+                                <span class="block-right">Квалифицированный персонал</span>
+                            </div>
+                            <span>Это позволяет нам делать проекты на высшем уровне, невозможное</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="app/image/settings.png" alt="">
+                                <span class="block-right">Автоматизация процессов</span>
+                            </div>
+                            <span>Мы стараемся автоматизировать всякий бизнес-процесс.</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="app/image/information-support.png" alt="">
+                                <span class="block-right">Информационная поддержка</span>
+                            </div>
+                            <span>Всегда рады оказать информационную поддержку по различных способам</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="app/image/modern-methods.png" alt="">
+                                <span class="block-right">Современные методы</span>
+                            </div>
+                            <span>Наши проекты выполнены современными методами, ведь нужно идти в ногу со временем!</span>
+                        </div>
+                        <div class="our-advantages-block block-left">
+                            <div class="block-header">
+                                <img class="block-left" src="app/image/help-in-start-ups.png" alt="">
+                                <span class="block-right">Помощь в стартапах</span>
+                            </div>
+                            <span>Мы готовы оказывать бесплатную помощь в интернет-стартапах, возможно даже разработать для Вас проект.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span class="subtitle text-center">Наши клиенты</span>
+            <div class="our-clients">
+                <div class="swiper-clients-container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="app/image/chiaro-logo.png" alt=""></div>
+                        <div class="swiper-slide"><img src="app/image/grandavto-logo.png" alt=""></div>
+                        <div class="swiper-slide"><img src="app/image/molodostroy-logo.png" alt=""></div>
+                        <div class="swiper-slide"><img src="app/image/alyans-logo.png" alt=""></div>
+                        <div class="swiper-slide"><img src="app/image/avtolux-logo.png" alt=""></div>
+                        <div class="swiper-slide"><img src="app/image/karavaevi-logo.png" alt=""></div>
+                        <div class="swiper-slide"><img src="app/image/acvarium-logo.png" alt=""></div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
 
     <section class="footer-menu">
         <div class="container">
-            <div class="">
-                <div class="">
-                    <span class="">Контакты</span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span><a href="/"></a>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Контакты</span>
+                <div class="footer-menu__address">
+                    <span>Офис</span>
+                    <span>пр-т Речицкий, 131А</span>
+                    <span>г. Гомель, Беларусь</span>
                 </div>
+                <div class="footer-menu__telephone">
+                    <span>Тел: +375 (33) 688 76 36</span>
+                    <span>E-mail: </span><a href="/">info@web-developer.by</a>
+                </div>
+            </div>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Услуги</span>
+                <ul class="footer-menu__list">
+                    <li><a href="/">Разработка сайтов</a></li>
+                    <li><a href="/">Продвижение сайтов</a></li>
+                    <li><a href="/">Обслуживание сайтов</a></li>
+                    <li><a href="/">Комплексные услуги</a></li>
+                    <li><a href="/">Обучение</a></li>
+                    <li><a href="/">Автоматизация бизнеса</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu__block block-left text-left">
+                <span class="footer-menu__title">Предложения</span>
+                <ul class="footer-menu__list">
+                    <li><a href="/">Для гос. организаций</a></li>
+                    <li><a href="/">Для ресторанов</a></li>
+                    <li><a href="/">Для гостиниц</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu__block block-left">
+                <span class="footer-menu__title">Связь</span>
+                <form class="feedback">
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="E-mail">
+                    <input type="tel" placeholder="Телефон">
+                    <textarea type="text" placeholder="Ваш вопрос" rows="4"></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
             </div>
         </div>
     </section>
@@ -62,16 +294,41 @@
     <footer>
         <div class="content">
             <div class="footer-logo block-left">
-                <img src="../web-developer/image/footer-logo.png">
+                <img src="app/image/footer-logo.png">
             </div>
             <span class="footer-text block-left">
                 Разработка сайтов, веб-приложений, автоматизация систем через веб-интерфейс.
             </span>
-            <span class="footer-copyright block-right">
+            <span class="footer-copyright block-right text-right">
                 &copy; Copyright 2016 by Web-Developer.by.
                 Работает на 1С-Битрикс.
             </span>
         </div>
     </footer>
+
+    <script src="app/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-main-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            centeredSlides: true,
+            /*autoplay: 5500,*/
+            autoplayDisableOnInteraction: false,
+            slidesPerView: 1,
+            loop: true
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper('.swiper-clients-container', {
+            scrollbar: '.swiper-scrollbar',
+            scrollbarHide: true,
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 30,
+            autoplay: 2500,
+            grabCursor: true
+        });
+    </script>
 </body>
 </html>

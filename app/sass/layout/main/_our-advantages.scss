@@ -1,0 +1,114 @@
+.our-advantages {
+    overflow: hidden;
+    margin: 0 0 96px 0;
+    line-height: $height26;
+    .subtitle {
+        margin: 0 0 45px 0;
+        text-align: center;
+        &:after {
+            content: '';
+            width: 108px;
+            display: block;
+            border-top: 1px solid $blackColor;
+            margin: 34px auto 0 auto;
+        }
+    }
+    .our-advantages-main {
+        overflow: hidden;
+        .row {
+            margin: 0 0 35px 0;
+            overflow: hidden;
+            @include breakpoint("max-width: 699px") {
+                margin: 0 0 17px 0;
+            }
+            &:last-child {
+                margin: 0;
+            }
+            .our-advantages-block {
+                width: 25%;
+                text-align: left;
+                box-sizing: border-box;
+                padding-left: 35px;
+                padding-right: 18px;
+                float: left;
+                @include breakpoint("max-width: 699px") {
+                    width: 49.5%;
+                    padding: 0;
+                }
+                @include breakpoint("max-width: 459px") {
+                    width: 100%;
+                    text-align: center;
+                }
+                &:nth-child(2n) {
+                    @include breakpoint("max-width: 699px") {
+                        padding-left: 5px;
+                    }
+                }
+                &:first-child {
+                    padding-left: 26px;
+                    padding-right: 8px;
+                    @include breakpoint("max-width: 699px") {
+                        padding: 0;
+                    }
+                }
+                &:nth-child(4n) {
+                    padding-right: 23px;
+                    padding-left: 10px;
+                    @include breakpoint("max-width: 699px") {
+                        padding: 0 0 0 5px;
+                    }
+                }
+                .block-header {
+                    display: inline-block;
+                    line-height: 26px;
+                    vertical-align: middle;
+                    img {
+                        float: left;
+                        @include breakpoint("max-width: 1200px") {
+                            width: 20px;
+                        }
+                        @include breakpoint("max-width: 1125px") {
+                            width: 15px;
+                        }
+                    }
+                    span {
+                        padding-left: 12px;
+                        font-size: $size16;
+                        color: #000000;
+                        font-family: $openSansRegular;
+                        float: right;
+                        @include breakpoint("max-width: 1366px") {
+                            font-size: 14px;
+                        }
+                        @include breakpoint("max-width: 1320px") {
+                            font-size: 12px;
+                        }
+                        @include breakpoint("max-width: 459px") {
+                            font-size: 16px;
+                        }
+                    }
+                }
+                span {
+                    display: block;
+                    font-size: $size14;
+                    color: #060606;
+                    font-family: $openSansLight;
+                    @include breakpoint("max-width: 1366px") {
+                        font-size: 12px;
+                    }
+                    @include breakpoint("max-width: 1320px") {
+                        font-size: 11px;
+                    }
+                    @include breakpoint("max-width: 1192px") {
+                        font-size: 10px;
+                        line-height: 15px;
+                    }
+                    @include breakpoint("max-width: 459px") {
+                        font-size: 14px;
+                        line-height: 19px;
+                    }
+                }
+            }
+        }
+    }
+}

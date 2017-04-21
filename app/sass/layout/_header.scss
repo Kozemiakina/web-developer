@@ -1,0 +1,212 @@
+header {
+    background-color: $headerColor;
+    @include breakpoint("max-width: 984px") {
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        top: 0;
+    }
+}
+
+.main-header {
+    //height: $height48;
+    height: 100%;
+    .header-logo {
+        float: left;
+        line-height: $height48;
+        width: (223px / $container *100%);
+        @include breakpoint("max-width: 984px") {
+            width: auto;
+            float: right;
+        }
+        img {
+            vertical-align: middle;
+            width: 100%;
+            @include breakpoint("max-width: 984px") {
+                width: auto;
+            }
+        }
+    }
+    .top-menu {
+        line-height: $height48;
+        .main-menu {
+            height: $height48;
+            text-align: center;
+            @include breakpoint("max-width: 984px") {
+                display: none;
+            }
+            li {
+                display: inline-block;
+                position: relative;
+                margin: 0 (45px / $container * 100%) 0 0;
+                &:last-child {
+                    margin: 0;
+                }
+                a {
+                    height: 100%;
+                    color: $blackColor;
+                    font-family: $myriadProRegular;
+                    font-size: $size16;
+                    @include breakpoint("max-width: 1070px") {
+                        font-size: $size14;
+                    }
+                }
+                &:hover {
+                    .sub-menu {
+                        display: block;
+                        li:hover {
+                            background-color: $subMenuColorHover;
+                        }
+                    }
+                }
+            }
+        }
+        .sub-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: -34%;
+            width: 206px;
+            background-color: $subMenuColor;
+            line-height: $height33;
+            z-index: 999;
+            text-align: left;
+            li {
+                width: 100%;
+                margin: 0 !important;
+                padding: 0 0 0 17px;
+                box-sizing: border-box;
+                a {
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .contacts {
+        line-height: $height47;
+        float: right;
+        @include breakpoint("max-width: 984px") {
+            display: none;
+        }
+        span {
+            text-decoration: underline;
+        }
+        .email {
+            color: $blackColor;
+            display: inline-block;
+            margin: 0 (25px / $container *100%) 0 (35px / $container *100%);
+            font-family: $myriadProRegular;
+        }
+        .telephone {
+            color: #e4e9ff;
+            background-color: $headerButton;
+            border-radius: 15px;
+            display: inline;
+            padding: 7px 10px;
+            font-size: $size14;
+            margin: 0 11px 0 0;
+            font-family: $myriadProRegular;
+        }
+    }
+}
+
+.phone-menu {
+    .contacts {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        @include breakpoint("max-width: 984px") {
+            display: block;
+        }
+        .telephone {
+            font-size: 20px;
+            display: block;
+            padding: 0;
+        }
+    }
+    .top-menu {
+        padding: 155px 0 0;
+        .main-menu {
+            text-align: center;
+            margin: 0 auto;
+            height: 100%;
+            li {
+                display: block;
+                margin: 0 auto;
+                width: 116px;
+                &:last-child {
+                    margin: 0 auto;
+                }
+                a {
+                    font-size: 22px;
+                }
+            }
+        }
+        .sub-menu {
+            position: relative;
+            left: -87%;
+            width: 216px;
+            li {
+                width: 100%;
+                a {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    #menu-trigger {
+        padding: 20px 10px;
+        float: left;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        transition: .2s;
+        outline: none;
+        margin-top: 5px;
+        background: #d2d1d1;
+        &:hover {
+            background: #577fff;
+
+        }
+    }
+    #menu-sandwich, #menu-sandwich::after, #menu-sandwich::before {
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: all 0.3s;
+        backface-visibility: hidden;
+        border-radius: 2px;
+    }
+    #menu-sandwich {
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -9px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 9px;
+        }
+    }
+    .on #menu-sandwich {
+        background-color: transparent;
+        &::before {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+        &::after {
+            transform: rotate(-45deg) translate(6px, -7px);
+        }
+    }
+    @include breakpoint("min-width: 984px") {
+        display: none;
+    }
+    @include breakpoint("max-width: 984px") {
+        display: block;
+    }
+
+}

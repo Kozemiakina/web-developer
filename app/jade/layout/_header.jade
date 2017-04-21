@@ -1,0 +1,52 @@
+header
+	.container.main-header
+		.phone-menu
+			button#menu-trigger
+				span#menu-sandwich
+		.header-logo
+			a(href="/")
+				img(src="./image/header-logo.png")
+		.contacts
+			span Москва
+			a.email(href="/") info@web-developer.by
+			a.telephone(href="tel:+375(33)6887636") +375 (33) 6887636
+		.screen-menu
+			nav.top-menu
+				ul.main-menu
+					li
+						a(href="/") Главная
+					li
+						a(href="/") Портфолио
+					li
+						a(href="/") Услуги
+						ul.sub-menu
+							- var SubMenu = ['Разработка сайтов', 'Продвижение сайтов', 'Обслуживание сайтов', 'Комплексные услуги', 'Обучение', 'Автоматизация бизнеса']
+							for item in SubMenu
+								li
+									a(href='/')=item
+					li
+						a(href="/") Контакты
+					li
+						a(href="/") О компании
+		.phone-menu
+			.contacts
+				span Москва
+				a.email(href="/") info@web-developer.by
+				a.telephone(href="tel:+375(33)6887636") +375 (33) 6887636
+			nav.top-menu
+				ul.main-menu
+					li
+						a(href="/") Главная
+					li
+						a(href="/") Портфолио
+					li
+						a(href="/") Услуги
+						ul.sub-menu
+							- var SubMenu = ['- Разработка сайтов', '- Продвижение сайтов', '- Обслуживание сайтов', '- Комплексные услуги', '- Обучение', '- Автоматизация бизнеса']
+							for item in SubMenu
+								li
+									a(href='/')=item
+					li
+						a(href="/") Контакты
+					li
+						a(href="/") О компании

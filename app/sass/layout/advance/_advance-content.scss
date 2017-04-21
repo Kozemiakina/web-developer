@@ -1,0 +1,42 @@
+.advance {
+    overflow: hidden;
+    padding: 196px 0 203px 0;
+    @include breakpoint("max-width: 1024px") {
+        padding: 120px 0 150px 0;
+    }
+    .advance-text {
+        width: 50%;
+        margin: 0;
+        float: left;
+        padding: 96px 0 175px 0;
+        @include breakpoint("max-width: 1024px") {
+            width: 100%;
+            float: none;
+            padding: 0;
+        }
+        .container__title {
+            width: 90%;
+            line-height: 27px;
+            @include breakpoint("max-width: 1024px") {
+                width: 100%;
+                float: none;
+                margin: 0 auto 55px auto;
+            }
+        }
+    }
+    .advance-img {
+        width: 50%;
+        float: right;
+        margin: 0;
+        text-align: center;
+        img {
+            width: auto;
+            max-width: 95%;
+        }
+        @include breakpoint("max-width: 1024px") {
+            width: 100%;
+            float: none;
+            margin: 0 auto 55px auto;
+        }
+    }
+}

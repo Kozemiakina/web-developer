@@ -1,0 +1,68 @@
+.hidden-text {
+    display: none;
+    @include breakpoint("min-width: 961px"){
+        display: block;
+    }
+}
+.open {
+    display: none;
+    text-align: center;
+    padding: 20px 0 0;
+    font-family: OpenSansLight, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #394489;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        color: black;
+    }
+    @include breakpoint("max-width: 780px"){
+        display: block;
+    }
+    @include breakpoint("max-width: 960px"){
+        display: block;
+    }
+}
+.advance-order-form {
+    padding: 61px 0 96px 0;
+    overflow: hidden;
+    .order-form {
+        width: 100%;
+        .order-form__text {
+            width: (657px / $container * 100%);
+            float: left;
+            padding: 0;
+            text-align: center;
+            .container__title{
+                width: 95%;
+                margin: 0 auto;
+            }
+            @include breakpoint("max-width: 780px"){
+                width: 100%;
+                float: none;
+            }
+        }
+        .order-form__form{
+            width: (654px / $container * 100%);
+            float: right;
+            padding-top: 82px;
+            @include breakpoint("max-width: 780px"){
+                width: 100%;
+                float: none;
+            }
+            form {
+                .area-input{
+                    float: none;
+                    margin: 0;
+                    width: 100%;
+                }
+                .area-textarea{
+                    float: none;
+                    margin: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

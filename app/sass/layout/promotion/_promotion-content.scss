@@ -1,0 +1,19 @@
+.promotion-content {
+    background: url("../image/bg-promotion-heda.png") no-repeat bottom right;
+    background-size: auto;
+    padding: 81px 0 30px;
+    overflow: hidden;
+    .promotion-content__text {
+        margin: 0 139px 0 auto;
+        width: 57%;
+        @include breakpoint("max-width: 1024px") {
+            width: 100%;
+        }
+    }
+    img {
+        width: auto;
+        max-width: 95%;
+        float: left;
+        position: relative;
+    }
+}

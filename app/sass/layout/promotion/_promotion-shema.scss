@@ -1,0 +1,24 @@
+.promotion-shema {
+    overflow: hidden;
+    padding: 81px 0 168px 0;
+    position: relative;
+    .container__title {
+        font-family: OpenSansLight, sans-serif;
+        &:nth-child(1) {
+            margin: 0;
+        }
+    }
+    .promotion-shema__img {
+        text-align: center;
+        width: 100%;
+        span {
+            max-width: 50%;
+            display: block;
+            float: right;
+        }
+    }
+    img {
+        width: auto;
+        max-width: 95%;
+    }
+}

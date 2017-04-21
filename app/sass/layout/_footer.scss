@@ -1,0 +1,227 @@
+.footer-menu {
+    background-color: #292929;
+    color: $whiteColor;
+    font-family: $openSansLight;
+    overflow: hidden;
+    a {
+        color: $whiteColor;
+        font-family: $openSansLight;
+        font-size: $size16;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .footer-menu__block {
+        width: 25%;
+        box-sizing: border-box;
+        padding: 38px 0 29px 0;
+        float: left;
+        &:first-child {
+            padding: 38px 0 29px 23px;
+        }
+        &:last-child {
+            padding: 38px 26px 29px 0;
+        }
+        @include breakpoint("max-width: 860px") {
+            width: 33.3333333%;
+            float: left;
+            &:first-child {
+                padding-left: 0;
+            }
+            &:last-child {
+                width: 50%;
+                padding-right: 0;
+                margin: 0 auto;
+                text-align: center;
+                float: none;
+            }
+        }
+        @include breakpoint("max-width: 719px") {
+            width: 50%;
+            float: left;
+            &:nth-child(3) {
+                text-align: center;
+                margin: 0 auto;
+                float: none;
+            }
+            &:nth-child(n+1):nth-child(-n+2){
+                padding-left: 40px;
+            }
+            &:last-child {
+                width: 100%;
+            }
+        }
+        @include breakpoint("max-width: 509px") {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            float: none;
+            &:first-child {
+                padding-left: 0;
+            }
+            &:last-child {
+                padding-right: 0;
+                width: 100%;
+            }
+            &:nth-child(n+1):nth-child(-n+2){
+                padding-left: 0;
+            }
+        }
+
+        .footer-menu__title {
+            font-size: $size30;
+            padding: 0 0 34px 0;
+            display: block;
+            @include breakpoint("max-width: 860px") {
+                padding: 0 51px 34px 0;
+            }
+            @include breakpoint("max-width: 719px") {
+                padding: 0 0 34px 0;
+            }
+            @include breakpoint("max-width: 509px") {
+                padding: 0 0 34px 0;
+            }
+        }
+        .footer-menu__address {
+            margin: 0 0 36px 0;
+            span {
+                display: block;
+                padding: 0 0 9px 0;
+                &:last-child {
+                    padding: 0;
+                }
+            }
+        }
+        .footer-menu__telephone {
+            span {
+                display: block;
+                padding: 0 0 9px 0;
+                &:nth-child(2) {
+                    padding: 0 0 0 0;
+                    display: inline-block;
+                    a {
+                        padding-left: 7px;
+                        @include breakpoint("max-width: 1125px") {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-menu__list {
+            line-height: $height24;
+        }
+        .feedback {
+            font-family: $openSansLight;
+            font-size: $size16;
+            color: $whiteColor;
+            input {
+                background-color: #474747;
+                width: 94%;
+                border: none;
+                padding: 10px;
+                color: $whiteColor;
+                font-size: $size16;
+                font-family: $openSansLight;
+            }
+            textarea {
+                background-color: #383838;
+                width: 94%;
+                border: none;
+                padding: 14px 10px 10px 10px;
+                resize: none;
+                color: $whiteColor;
+                font-size: $size16;
+                font-family: $openSansLight;
+            }
+            button {
+                float: right;
+                margin: 5px 0;
+                background-color: transparent;
+                border: none;
+                padding: 2px 5px;
+                color: $whiteColor;
+                font-family: $openSansLight;
+                font-size: $size16;
+                line-height: $height38;
+                transition: 0.5s;
+                @include breakpoint("max-width: 509px") {
+                    float: none;
+                }
+                &:hover {
+                    cursor: pointer;
+                    color: #577fff;
+                    background: #383838;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+
+}
+
+footer {
+    background-color: #191919;
+    color: $whiteColor;
+    font-family: $openSansRegular;
+    font-size: $size14;
+    height: 66px;
+    @include breakpoint("max-width: 829px") {
+        height: 100%;
+    }
+    .footer-logo {
+        width: (317px / $section * 100%);
+        line-height: 66px;
+        float: left;
+        img {
+            width: 100%;
+            vertical-align: middle;
+            @include breakpoint("max-width: 829px") {
+                width: 50%;
+            }
+            @include breakpoint("max-width: 559px") {
+                width: 50%;
+            }
+        }
+        @include breakpoint("max-width: 829px") {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    .footer-text {
+        display: inline-block;
+        margin: 10px 0 0 95px;
+        width: (340px / $section * 100%);
+        word-wrap: break-word;
+        line-height: $height24;
+        float: left;
+        @include breakpoint("max-width: 1350px") {
+            line-height: 18px;
+        }
+        @include breakpoint("max-width: 829px") {
+            width: 100%;
+            margin: 10px auto;
+            float: none;
+            text-align: center;
+        }
+    }
+    .footer-copyright {
+        display: inline-block;
+        margin: 10px 0 0 0;
+        width: (313px / $section * 100%);
+        word-wrap: break-word;
+        line-height: $height24;
+        float: right;
+        text-align: right;
+        @include breakpoint("max-width: 1366px") {
+            line-height: 18px;
+        }
+        @include breakpoint("max-width: 829px") {
+            width: 100%;
+            margin: 10px auto;
+            float: none;
+            text-align: center;
+        }
+    }
+}

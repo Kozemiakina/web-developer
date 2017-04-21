@@ -1,0 +1,30 @@
+.services-info {
+    padding: 140px 0 0 0;
+    .service-info__course {
+        width: 51%;
+        @include breakpoint("max-width: 1122px") {
+            width: 62%;
+        }
+        @include breakpoint("max-width: 730px") {
+            width: 100%;
+        }
+    }
+    .container__title {
+        text-align: left;
+        width: 100%;
+        line-height: 30px;
+        margin: 0 0 60px 0;
+    }
+
+    ._little {
+        margin: 0;
+    }
+}
+
+//Circle-line
+.circle-line {
+    img {
+        max-height: 990px;
+        width: 100%;
+    }
+}

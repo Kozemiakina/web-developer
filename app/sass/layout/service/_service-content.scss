@@ -1,0 +1,70 @@
+.container {
+    //padding: 0 25px;
+    width: 1311px;
+    height: 100%;
+    @include breakpoint("max-width: 617px") {
+        max-width: 93% !important;
+    }
+}
+
+.container__title {
+    margin: 0 0 55px;
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-family: OpenSansLight, sans-serif;
+}
+
+._little {
+    font-size: 18px;
+    line-height: 24px;
+    @include breakpoint("max-width: 559px") {
+        font-size: 18px;
+    }
+    @include breakpoint("max-width: 500px") {
+        font-size: 16px;
+    }
+}
+
+//Service
+
+.service {
+    background: #008eb7 url("../../../image/business.jpg") center;
+    height: 900px;
+    padding: 60px 0 0 0;
+    .context {
+        width: 654px;
+        height: 660px;
+        display: inline-block;
+        float: right;
+        background: url("../../../image/bisnes-white.png") no-repeat center;
+        background-size: 100% 100%;
+        padding: 160px 0 0;
+        @include breakpoint("max-width: 730px") {
+            width: 100%;
+        }
+        @include breakpoint("max-width: 559px") {
+            background: white;
+            opacity: 0.8;
+        }
+        @include breakpoint("max-width: 559px") {
+            padding: 74px 0 0;
+        }
+        span:last-child {
+            @include breakpoint("max-width: 409px") {
+                line-height: 23px;
+            }
+        }
+        //margin: 60px 0 0;
+        .container__title {
+            text-align: left;
+            padding: 0 60px 0 40px;
+            line-height: 30px;
+            margin: 0 0 40px 0;
+            @include breakpoint("max-width: 500px") {
+                padding: 0 25px 0 25px;
+            }
+        }
+    }
+}

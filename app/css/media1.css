@@ -1,0 +1,21 @@
+@media (max-width: 1366px) {
+    .container {
+        width: 1348px;
+    }
+
+    .top-menu {
+        margin: 0 80px;
+    }
+
+    .under-slider .block a span {
+        font-size: 17px;
+    }
+
+    .first-slide {
+        margin: 155px 76px 0 0;
+    }
+
+    .second-slide {
+        margin: 140px 0 0 185px;
+    }
+}

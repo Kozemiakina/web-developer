@@ -1,0 +1,61 @@
+.result {
+    overflow: hidden;
+    margin: 0 auto 107px auto;
+    width: 96%;
+    .container__title {
+        font-size: 30px;
+    }
+    .result_top-box {
+        width: 100%;
+        display: inline-block;
+    }
+    .result_bottom-box {
+        width: 100%;
+        max-width: 95%;
+        display: inline-block;
+        padding: 42px 0 0 82px;
+        @include breakpoint("max-width: 750px") {
+            padding: 0;
+        }
+    }
+    .result-list {
+        font-size: 20px;
+        font-family: OpenSansLight, sans-serif;
+        text-transform: uppercase;
+        @include breakpoint("max-width: 750px") {
+            padding: 10px 0 0 0;
+        }
+        img {
+            float: left;
+            display: inline-block;
+        }
+        span {
+            padding-left: 12px;
+            line-height: 35px;
+            display: inline-block;
+            max-width: 90%;
+            vertical-align: middle;
+            @include breakpoint("max-width: 1170px") {
+                display: initial;
+                max-width: 100%;
+            }
+        }
+        &:nth-child(1n) {
+            width: 48%;
+            float: left;
+            @include breakpoint("max-width: 750px") {
+                width: 100%;
+                float: none;
+            }
+        }
+        &:nth-child(2n) {
+            width: 50%;
+            float: right;
+            @include breakpoint("max-width: 750px") {
+                width: 100%;
+                float: none;
+            }
+        }
+    }
+}
+

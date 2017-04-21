@@ -1,0 +1,44 @@
+.under-header {
+    background: #ececec;
+    ul {
+        text-align: center;
+        li {
+            display: inline-block;
+            transition: 0.4s;
+            @include breakpoint("max-width: 845px") {
+                display: block;
+            }
+            a {
+                color: black;
+                display: block;
+                padding: 23px 36px 16px 36px;
+                transition: 0.4s;
+                &:hover {
+                    color: white;
+                    transition: 0.4s;
+                    background: #464646;
+                    stroke: (#fff);
+                }
+
+                img {
+                    height: 34px;
+                    &:hover {
+                        fill: url(#white);
+                    }
+                }
+                span {
+                    display: block;
+                    padding-top: 11px;
+                }
+            }
+        }
+    }
+}
+path {
+    .st0 {
+        fill: white;
+        &:hover {
+            fill: white;
+        }
+    }
+}
